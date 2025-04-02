@@ -34,8 +34,11 @@ fun crearPeces() {
     val tiburon = Tiburon()
     val pezPayaso = PezPayaso()
 
-    println("Tiburon es de color: ${tiburon.color}")
-    println("Pez Payaso es de color: ${pezPayaso.color}")
+    println("El Tiburon es de color: ${tiburon.color}")
+    tiburon.comer()
+
+    println("El Pez Payaso es de color: ${pezPayaso.color}")
+    pezPayaso.comer()
 }
 
 fun main() {
